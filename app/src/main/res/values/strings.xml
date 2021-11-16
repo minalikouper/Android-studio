@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">hi</string>
+    <string name="header">Уровень заряда батареи</string>
+    <string name="valuePr">65%</string>
+    <string name="valueOnVol">Включить звук</string>
+    <string name="valueOffVol">Выключить звук</string>
+    <string name="valueVolume">Громкость сигнала</string>
+    <string name="valueHeals"> Состояние батареи : </string>
+    <string name="valueTemp"> Температура : </string>
+    <string name="exitDiscription">выйти из аппликации</string>
+</resources>

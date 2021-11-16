@@ -1,0 +1,12 @@
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/red_progress"
+        android:maxLevel="2999" />
+    <item
+        android:drawable="@drawable/yellow_progress"
+        android:maxLevel="6999" />
+    <item
+        android:drawable="@drawable/green_progress"
+        android:maxLevel="10000" />
+</level-list>
+

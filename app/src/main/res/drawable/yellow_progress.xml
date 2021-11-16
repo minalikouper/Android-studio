@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/progress">
+        <rotate xmlns:android="http://schemas.android.com/apk/res/android" android:fromDegrees="90" android:toDegrees="90">
+            <shape android:innerRadiusRatio="2.5" android:shape="ring" android:thickness="10dp" android:useLevel="true"><!-- this line fixes the issue for lollipop api 21 -->
+
+                <gradient android:angle="0" android:endColor="@color/YELLOW" android:startColor="@color/YELLOW" android:type="sweep" android:useLevel="false" />
+            </shape>
+        </rotate>
+    </item>
+    <!--    <item android:id="@android:id/background">-->
+    <!--        <shape-->
+    <!--            android:innerRadiusRatio="2.8"-->
+    <!--            android:shape="ring"-->
+    <!--            android:type="sweep"-->
+    <!--            android:useLevel="true"-->
+    <!--            android:thicknessRatio="18.0">-->
+    <!--            <solid android:color="@color/gray"/>-->
+    <!--        </shape>-->
+    <!--    </item>-->
+    <!--    <item android:id="@android:id/progress">-->
+    <!--        <rotate-->
+    <!--            android:pivotX="50%"-->
+    <!--            android:pivotY="50%"-->
+    <!--            android:fromDegrees="90"-->
+    <!--            android:toDegrees="90">-->
+
+    <!--            <shape-->
+    <!--                android:innerRadiusRatio="2.8"-->
+    <!--                android:shape="ring"-->
+    <!--                android:useLevel="true"-->
+    <!--                android:angle="10"-->
+    <!--                android:type="sweep"-->
+    <!--                android:thicknessRatio="18.0">-->
+    <!--                <solid android:color="@color/YELLOW"/>-->
+
+    <!--            </shape>-->
+    <!--        </rotate>-->
+    <!--    </item>-->
+    <!--    <item android:id="@android:id/background">-->
+    <!--        <shape>-->
+    <!--            <corners android:radius="5dip" />-->
+    <!--            <gradient-->
+    <!--                android:startColor="#ff9d9e9d"-->
+    <!--                android:centerColor="#ff5a5d5a"-->
+    <!--                android:centerY="0.75"-->
+    <!--                android:endColor="#ff747674"-->
+    <!--                android:angle="270"-->
+    <!--                />-->
+    <!--        </shape>-->
+    <!--    </item>-->
+
+    <!--    <item android:id="@android:id/secondaryProgress">-->
+    <!--        <clip>-->
+    <!--            <shape-->
+    <!--                android:useLevel="true">-->
+    <!--                <corners android:radius="5dip" />-->
+    <!--                <gradient-->
+    <!--                    android:startColor="#80ffd300"-->
+    <!--                    android:centerColor="#80ffb600"-->
+    <!--                    android:centerY="0.75"-->
+    <!--                    android:endColor="#a0ffcb00"-->
+    <!--                    android:angle="270"-->
+    <!--                    />-->
+    <!--            </shape>-->
+    <!--        </clip>-->
+    <!--    </item>-->
+
+    <!--    <item android:id="@android:id/progress">-->
+    <!--        <clip>-->
+    <!--            <shape>-->
+    <!--                <corners android:radius="5dip" />-->
+    <!--                <gradient-->
+    <!--                    android:startColor="#ffffd300"-->
+    <!--                    android:centerColor="#ffffb600"-->
+    <!--                    android:centerY="0.75"-->
+    <!--                    android:endColor="#ffffcb00"-->
+    <!--                    android:angle="270"-->
+    <!--                    />-->
+    <!--            </shape>-->
+    <!--        </clip>-->
+    <!--    </item>-->
+
+</selector>
