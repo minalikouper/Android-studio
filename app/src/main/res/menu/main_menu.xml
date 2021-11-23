@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_menu"
+    android:fontFamily="@font/lora_bold"
+    android:textColor="@color/textColor">
+    <item
+        android:id="@+id/menu_item_info"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:orderInCategory="1"
+        android:title="@string/menu_item_info" />
+    <item
+        android:id="@+id/menu_item_sound"
+        android:icon="@drawable/ic_baseline_volume_up_24"
+        android:orderInCategory="2"
+        android:title="@string/menu_item_sound" />
+    <item
+        android:id="@+id/menu_item_exit"
+        android:icon="@drawable/ic_exit_2860"
+        android:orderInCategory="3"
+        android:title="@string/menu_item_exit" />
+</menu>

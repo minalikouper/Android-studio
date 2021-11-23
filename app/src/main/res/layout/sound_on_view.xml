@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="5dip">
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switchMaterial"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="7dp"
+        android:checked="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:switchMinWidth="110sp"
+        android:text="@string/valueOffVol"
+        android:textColor="@color/textColor"
+        android:textOff="@string/offVol"
+        android:textOn="@string/valueOnVol"
+        android:theme="@style/SwitchTheme" />
+
+</LinearLayout>
+
+
+    <!--    <Switch-->
+    <!--        android:id="@+id/switchSilent"-->
+    <!--        style="@style/TextAppearance.AppCompat.Widget.Switch"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="100dp"-->
+    <!--        android:layout_margin="7dp"-->
+    <!--        android:checked="true"-->
+    <!--        android:gravity="center"-->
+    <!--        android:padding="10dp"-->
+    <!--        android:switchMinWidth="110sp"-->
+    <!--        android:text="@string/valueOffVol"-->
+    <!--        android:textColor="@color/textColor"-->
+    <!--        android:textOff="@string/offVol"-->
+    <!--        android:textOn="@string/valueOnVol"-->
+    <!--        android:theme="@style/SwitchTheme"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--        app:layout_constraintRight_toRightOf="parent"-->
+    <!--        app:showText="true"-->
+    <!--        tools:ignore="UseSwitchCompatOrMaterialXml" />-->
